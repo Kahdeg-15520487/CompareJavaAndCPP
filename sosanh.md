@@ -6,6 +6,7 @@
 | Resource management can be done manually or by automatic lifetime-based resource management (RAII). | Resource management must generally be done manually, or automatically via finalizers, though this is generally discouraged. Has try-with-resources for automatic scope-based resource management (version 7 onwards).
 It can also be done using the internal API sun.misc.Unsafe but that usage is highly discouraged and will be replaced by a public API in an upcoming Java version.
  |
+ 
 | Supports classes, structs (passive data structure (PDS) types), and unions, and can allocate them on the heap or the stack. | Classes are allocated on the heap. Java SE 6 optimizes with escape analysis to allocate some objects on the stack. |
 | Allows explicitly overriding types, and some implicit narrowing conversions (for compatibility with C). | Rigid type safety except for widening conversions. |
 | The C++ Standard Library was designed to have a limited scope and functions, but includes language support, diagnostics, general utilities, strings, locales, containers, algorithms, iterators, numerics, input/output, random number generators, regular expression parsing, threading facilities, type traits (for static type introspection) and Standard C Library. The Boost library offers more functions including network I/O.
